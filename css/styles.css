@@ -65,14 +65,15 @@ body {
     width: 100vw;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .content .content__left {
-    width: 50%;
-    height: 46rem;
+    /*width: 47.5%;*/
+    width: 48vw;
+    height: 45rem;
     position: relative;
     display: flex;
-    justify-content: flex-end;
 }
 
 .content .content__left img {
@@ -98,9 +99,9 @@ body {
 .content .content__right {
     background-color: var(--white);
     border-radius: 0.5rem;
-    width: 47.5%;
-    height: 46rem;
-    margin-left: 0.5%;
+    width: 48vw;
+    height: 45rem;
+    /*margin-left: 0.5%;*/
 }
 
 .content .content__right h1 {
